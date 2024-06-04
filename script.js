@@ -1,8 +1,9 @@
 let name1 = document.getElementById("nome")
-let contact = document.getElementById("telefone")
+let contact = document.getElementById("tele")
 let form = document.getElementById("contatoForm")
 let names = []
 let contacts = []
+$(`#tele`).mask(`(00) 00000-0000`)
 
 let lines = " "
 
@@ -39,3 +40,4 @@ function update_table(){
     body_table.innerHTML = lines
 
 }
+
